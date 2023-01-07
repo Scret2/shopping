@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/number_kanji08.png" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/custom.css" />
+    <title>八百屋さん</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="buy">
+        <h1>八百屋システム</h1>
+        <div class="product">
+          <ul>
+            <li><img src="images/tomato.jpg" /></li>
+            <li><img src="images/green pepper.jpg" /></li>
+            <li><img src="images/strawberry.jpg" /></li>
+            <li><img src="images/cucamber.jpg" /></li>
+            <p>トマト　200円</p>
+            <p>ピーマン　200円</p>
+            <p>いちご　300円</p>
+            <p>きゅうり　180円</p>
+            <button id="toma_btn">買う</button>
+            <button id="green_btn">買う</button>
+            <button id="stra_btn">買う</button>
+            <button id="cu_btn">買う</button>
+            <div id="btn">
+              <button id="counter">会計</button>
+              <button id="clear">取り消す</button>
+            </div>
+
+            <div class="shopping">
+              <p>買ったもの</p>
+            </div>
+            <p class="sum_price"></p>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
